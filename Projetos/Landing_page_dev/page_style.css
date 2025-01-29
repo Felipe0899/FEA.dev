@@ -1,0 +1,186 @@
+* {
+    font-family: JetBrains Mono;
+    box-sizing: border-box;
+    background-color: #161510;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: #EACA58;
+    margin: 0.8rem;
+}
+
+header #left-header-menu {
+    display: flex;
+    align-items: center;
+}
+
+#left-header-menu img {
+    width: 20%;
+    height: 80%;
+    margin: 0;
+}
+
+header #entity-title {
+    font-family: 'Times New Roman';
+    margin-left: 10px;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    list-style: none;
+    align-items: center;
+}
+
+header ul a {
+    text-decoration: none;
+}
+
+header ul a li{
+    color: #EACA58;
+    text-decoration: none;
+}
+
+header ul a li:hover {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    margin-top: 50px;
+    height: 550px
+}
+
+main section {
+    width: 70%;
+    margin-left: 10px;
+}
+
+main #main-section #main-title-section {
+    color: #EACA58;
+    font-size: 2.5rem;
+    font-weight: bold;
+    justify-content: center;
+    margin: 10px;
+}
+
+main #main-section #main-subtitle-section {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+main #main-section p {
+    color: #fff;
+    justify-content: center;
+    margin: 10px;
+}
+
+main aside {
+    width: 50%;
+}
+
+main aside img{
+    width: 100%;
+    height: 80%;
+}
+
+main section #form-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 35px;
+    width: 350px;
+}
+
+main section #form-section input {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 12px;
+    border: none;
+}
+
+main section #form-section button {
+    margin: 5px;
+    width: 150px;
+    align-items: center;
+    padding: 10px;
+    background-color: #EACA58;
+    border-radius: 12px;
+    border: none;
+    color: #161510;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+main section #form-section button:hover {
+    background-color: #fff;
+    color: #161510;
+    cursor: pointer;
+}
+
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    font-size: 0.55rem;
+    display: flex;
+    justify-content: center;
+}
+
+footer div h1 {
+    display: flex;
+    align-items: center;
+}
+
+footer #first-phrase {
+    color: #fff;
+}
+
+footer #second-phrase {
+    background-color: #EACA58;
+}
+
+footer #third-phrase {
+    color: #fff;
+}
+
+footer #fourth-phrase {
+    background-color: #EACA58;
+}
+
+footer aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer aside label {
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
+
+footer aside a {
+    color: #EACA58;
+    text-decoration: none;
+    margin-top: 8px;
+}
+
+footer aside a:hover {
+    color: #fff;
+    cursor: pointer;
+}
